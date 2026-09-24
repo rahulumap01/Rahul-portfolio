@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<!--
+PORTFOLIO IMAGE GUIDE
+=====================
+Every image on this site lives under /assets and is a placeholder generated
+to hold the correct size and shape until you drop in real files. Replace a
+file without changing its name and the site updates automatically.
+
+assets/profile/rahul-profile.jpg  -> Rahul's professional portrait (used in the hero)
+
+assets/work/project-01.jpg -> Best branding project
+assets/work/project-02.jpg -> Best social media campaign
+assets/work/project-03.jpg -> Best Instalaxmi project
+assets/work/project-04.jpg -> Best motion graphics project
+assets/work/project-05.jpg -> Best 3D project
+assets/work/project-06.jpg -> Best advertising campaign
+assets/work/project-07.jpg -> Best video / editing project
+assets/work/project-08.jpg -> Best logo / brand identity project
+assets/work/project-09.jpg -> Best digital campaign
+assets/work/project-10.jpg -> Additional selected work
+
+Every <img> below is preceded by a "REPLACE WITH YOUR PROJECT IMAGE" comment
+so you never have to search through the CSS to find the right spot.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rahul Umap — Visual Artist &amp; Senior Graphic Designer</title>
+<meta name="description" content="Rahul Umap is a visual artist and senior graphic designer working across brand identity, motion graphics, 2D/3D animation and video editing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+
+<header class="site-header" id="top">
+  <nav class="nav">
+    <a href="#top" class="nav-brand"><span class="dot" aria-hidden="true"></span>RAHUL UMAP</a>
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </label>
+    <ul class="nav-links">
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#work">WORK</a></li>
+      <li><a href="#experience">EXPERIENCE</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <p class="hero-bg-type" aria-hidden="true">VISUAL</p>
+
+    <div class="hero-capsule">
+      <span>SOCIAL MEDIA DESIGN</span><span class="dot-sep" aria-hidden="true">•</span>
+      <span>BRANDING</span><span class="dot-sep" aria-hidden="true">•</span>
+      <span>MOTION GRAPHICS</span><span class="dot-sep" aria-hidden="true">•</span>
+      <span>2D / 3D ANIMATION</span><span class="dot-sep" aria-hidden="true">•</span>
+      <span>VIDEO EDITING</span>
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="hero-label">RAHUL UMAP</p>
+        <h1 class="hero-heading">
+          <span class="line-white">VISUAL ARTIST</span>
+          <span class="line-gold">SENIOR GRAPHIC<br>DESIGNER</span>
+        </h1>
+        <p class="hero-desc">Transforming ideas into visual identities, digital experiences and motion-led brand stories.</p>
+      </div>
+
+      <div class="hero-portrait">
+        <div class="portrait-frame">
+          <!-- REPLACE WITH YOUR PORTRAIT (assets/profile/rahul-profile.jpg). If it's a transparent PNG cutout, remove the border and mask-image rules on .portrait-frame in style.css. -->
+          <img src="assets/profile/rahul-profile.jpg" alt="Rahul Umap, visual artist and senior graphic designer" class="portrait-img">
+          <div class="portrait-tint" aria-hidden="true"></div>
+          <div class="portrait-glow" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-bottom">
+      <div class="hero-bottom-left">
+        <p class="hero-bottom-name">RAHUL UMAP</p>
+        <p>VISUAL ARTIST / SENIOR GRAPHIC DESIGNER</p>
+      </div>
+      <div class="hero-bottom-right">
+        <a href="tel:+918454808018">8454808018</a>
+        <a href="mailto:Rahulhub75@gmail.com">Rahulhub75@gmail.com</a>
+        <a href="mailto:sanjayumap808@gmail.com">sanjayumap808@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span>SCROLL TO EXPLORE</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ================= PROFILE ================= -->
+  <section class="profile reveal" id="about">
+    <div class="profile-grid">
+      <div class="profile-left">
+        <p class="eyebrow">01 / PROFILE</p>
+        <h2 class="profile-heading">I DESIGN<br>VISUAL STORIES<br>THAT MOVE.</h2>
+        <span class="profile-number" aria-hidden="true">01</span>
+      </div>
+      <div class="profile-right">
+        <p>Visual artist specializing in graphic design, motion graphics, 2D/3D animation, video editing, and digital content creation.</p>
+        <p>Experienced in creating brand visuals, social media content, marketing creatives, logos, brochures, and animated videos with a strong focus on visual communication and brand storytelling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERTISE ================= -->
+  <section class="expertise reveal" id="expertise">
+    <h2 class="section-heading">WHAT I DO</h2>
+    <div class="expertise-grid">
+      <article class="expertise-card"><span class="card-num">01</span><h3>GRAPHIC DESIGN</h3><p>Visual systems, layouts and communication.</p></article>
+      <article class="expertise-card"><span class="card-num">02</span><h3>SOCIAL MEDIA</h3><p>Campaigns and high-impact digital creatives.</p></article>
+      <article class="expertise-card"><span class="card-num">03</span><h3>BRAND DEVELOPMENT</h3><p>Identity systems and brand visuals.</p></article>
+      <article class="expertise-card"><span class="card-num">04</span><h3>PHOTO EDITING</h3><p>Professional retouching and compositing.</p></article>
+      <article class="expertise-card"><span class="card-num">05</span><h3>MOTION GRAPHICS</h3><p>Animated visual storytelling.</p></article>
+      <article class="expertise-card"><span class="card-num">06</span><h3>2D / 3D ANIMATION</h3><p>Motion-led visual experiences.</p></article>
+      <article class="expertise-card"><span class="card-num">07</span><h3>LOGO &amp; BROCHURE DESIGN</h3><p>Brand assets and communication systems.</p></article>
+      <article class="expertise-card"><span class="card-num">08</span><h3>DIGITAL CONTENT</h3><p>Campaigns, digital assets and marketing visuals.</p></article>
+    </div>
+  </section>
+
+  <!-- ================= VISUAL LANGUAGE ================= -->
+  <section class="visual-language reveal" id="visual-language">
+    <p class="eyebrow">MY VISUAL LANGUAGE</p>    
+    <div class="vl-lines">
+      <span class="vl-line">TYPOGRAPHY</span><span class="vl-plus" aria-hidden="true">+</span>
+      <span class="vl-line">COMPOSITION</span><span class="vl-plus" aria-hidden="true">+</span>
+      <span class="vl-line">MOTION</span><span class="vl-plus" aria-hidden="true">+</span>
+      <span class="vl-line">STORYTELLING</span><span class="vl-plus" aria-hidden="true">+</span>
+      <span class="vl-line">TECHNOLOGY</span>
+    </div>
+  </section>
+
+  <!-- ================= SELECTED WORK ================= -->
+  <section class="work reveal" id="work">
+    <div class="work-intro">
+      <p class="eyebrow">02 / SELECTED WORK</p>
+      <h2 class="work-heading">DESIGNING<br>IDEAS INTO<br>VISUALS.</h2>
+      <p class="work-subtitle">A selection of branding, campaigns, social media creatives, motion graphics, 3D visuals and digital content created across different projects.</p>
+    </div>
+
+    <div class="work-grid">
+      <article class="project project-large">
+        <div class="image-wrapper">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/project-03.jpg" alt="InstaLaxmi brand identity design" class="image" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-cat">BRAND IDENTITY</span>
+          <h3 class="project-title">D C</h3>
+          <span class="project-year">2026</span>
+        </div>
+      </article>
+
+      <article class="project project-tall">
+        <div class="image-wrapper">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/project-02.jpg" alt="Digital Gold social media campaign" class="image object-top" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-cat">SOCIAL MEDIA CAMPAIGN</span>
+          <h3 class="project-title">DIGITAL GOLD</h3>
+          <span class="project-year">2026</span>
+        </div>
+      </article>
+
+      <article class="project project-medium">
+        <div class="image-wrapper">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/BRAND CAMPAIGN.jpg" alt="Brand campaign motion design still" class="image" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-cat">MOTION DESIGN</span>
+          <h3 class="project-title">BRAND CAMPAIGN</h3>
+          <span class="project-year">2025</span>
+        </div>
+      </article>
+
+      <article class="project project-medium">
+        <div class="image-wrapper">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/PRODUCT EXPERIENCE.jpg" alt="Product experience 3D visual" class="image" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-cat">3D VISUAL</span>
+          <h3 class="project-title">PRODUCT EXPERIENCE</h3>
+          <span class="project-year">2025</span>
+        </div>
+      </article>
+
+      <article class="project project-wide">
+        <div class="image-wrapper">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/MARKETING FILM.jpg" alt="Marketing film video editing still" class="image" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-cat">VIDEO EDITING</span>
+          <h3 class="project-title">MARKETING FILM</h3>
+          <span class="project-year">2025</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED PROJECT 01 ================= -->
+  <section class="feature-block reveal">
+    <article class="feature-project">
+      <div class="feature-image-wrap">
+        <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+        <img src="assets/work/project-09.jpg" alt="Digital Gold campaign full-width case study visual" class="image" loading="lazy">
+      </div>
+      <div class="feature-info">
+        <span class="feature-tag">FEATURED PROJECT / 01</span>
+        <h3>DIGITAL GOLD<br>CAMPAIGN</h3>
+        <p class="feature-services">Branding / Social Media / Digital Marketing</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ================= BEST OF MY WORK (CSS-ONLY CAROUSEL) ================= -->
+  <section class="best-work reveal" id="best-work">
+    <div class="best-work-intro">
+      <p class="eyebrow">CURATED SELECTION</p>
+      <h2 class="section-heading">THE BEST OF<br>MY WORK</h2>
+      <p class="work-subtitle">A focused collection of projects that represent my approach to visual design, storytelling and creative direction.</p>
+    </div>
+
+    <div class="carousel-track">
+      <article class="carousel-item">
+        <span class="carousel-index">01</span>
+        <div class="image-wrapper ratio-landscape">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/project-03.jpg" alt="" class="image" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+          <span class="gold-line" aria-hidden="true"></span>
+        </div>
+        <div class="project-meta">
+          <span class="project-cat">D C / 2026</span>
+          <h3 class="project-title">DIGITAL CAMPAIGN</h3>
+        </div>
+      </article>
+
+      <article class="carousel-item">
+        <span class="carousel-index">02</span>
+        <div class="image-wrapper ratio-landscape">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/project-01.jpg" alt="Brand identity system key visual" class="image" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+          <span class="gold-line" aria-hidden="true"></span>
+        </div>
+        <div class="project-meta">
+          <span class="project-cat">BRAND DEVELOPMENT / 2026</span>
+          <h3 class="project-title">BRAND IDENTITY</h3>
+        </div>
+      </article>
+
+      <article class="carousel-item">
+        <span class="carousel-index">03</span>
+        <div class="image-wrapper ratio-landscape">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <video 
+                src="assets/work/project-04.mp4" 
+                class="image" 
+               controls 
+               muted 
+               loop 
+               playsinline>
+          </video>
+          <div class="project-overlay" aria-hidden="true"></div>
+          <span class="gold-line" aria-hidden="true"></span>
+        </div>
+        <div class="project-meta">
+          <span class="project-cat">MOTION GRAPHICS / 2025</span>
+          <h3 class="project-title">MOTION CAMPAIGN</h3>
+        </div>
+      </article>
+
+      <article class="carousel-item">
+        <span class="carousel-index">04</span>
+        <div class="image-wrapper ratio-landscape">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/project-05.jpg" alt="3D visual render" class="image object-top" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+          <span class="gold-line" aria-hidden="true"></span>
+        </div>
+        <div class="project-meta">
+          <span class="project-cat">3D / ANIMATION / 2025</span>
+          <h3 class="project-title">3D VISUALS</h3>
+        </div>
+      </article>
+
+      <article class="carousel-item">
+        <span class="carousel-index">05</span>
+        <div class="image-wrapper ratio-landscape">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/project-02.jpg" alt="Social media campaign key visual" class="image" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+          <span class="gold-line" aria-hidden="true"></span>
+        </div>
+        <div class="project-meta">
+          <span class="project-cat">SOCIAL MEDIA DESIGN / 2025</span>
+          <h3 class="project-title">SOCIAL CAMPAIGN</h3>
+        </div>
+      </article>
+
+      <article class="carousel-item">
+        <span class="carousel-index">06</span>
+        <div class="image-wrapper ratio-landscape">
+          <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+          <img src="assets/work/project-06.jpg" alt="Product advertising campaign visual" class="image" loading="lazy">
+          <div class="project-overlay" aria-hidden="true"></div>
+          <span class="gold-line" aria-hidden="true"></span>
+        </div>
+        <div class="project-meta"> 
+          <span class="project-cat">CREATIVE ADVERTISING / 2025</span>
+          <h3 class="project-title">PRODUCT VISUAL</h3>
+        </div>
+      </article>
+    </div>
+
+    <div class="carousel-controls">
+      <span class="carousel-hint">← DRAG TO EXPLORE →</span>
+      <span class="carousel-count">01 / 06</span>
+    </div>
+  </section>
+
+  <!-- ================= MORE WORK ================= -->
+ 
+  <!-- ================= FEATURED PROJECT 02 ================= -->
+  <section class="feature-block reveal">
+    <article class="feature-project feature-reverse">
+      <div class="feature-image-wrap">
+        <!-- REPLACE WITH YOUR PROJECT IMAGE -->
+        <video 
+  src="assets/work/motionvideo.mp4" 
+  class="image" 
+  controls 
+  muted 
+  loop 
+  playsinline>
+</video>
+      </div>
+      <div class="feature-info">
+        <span class="feature-tag">FEATURED PROJECT / 02</span>
+        <h3>MOTION<br>&amp; VISUAL EFFECTS</h3>
+        <p class="feature-services">Motion Graphics / 3D / Video</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ================= CREATIVE PROCESS ================= -->
+  <section class="process reveal" id="process">
+    <h2 class="section-heading">HOW I THINK</h2>
+    <ol class="process-list">
+      <li><span class="process-num">01</span><h3>DISCOVER</h3><p>Understanding the brand, audience and objective.</p></li>
+      <li><span class="process-num">02</span><h3>DEFINE</h3><p>Building the visual direction and communication strategy.</p></li>
+      <li><span class="process-num">03</span><h3>DESIGN</h3><p>Creating the visual system and key assets.</p></li>
+      <li><span class="process-num">04</span><h3>ANIMATE</h3><p>Bringing static visuals into motion.</p></li>
+      <li><span class="process-num">05</span><h3>DELIVER</h3><p>Preparing final assets for digital and marketing use.</p></li>
+    </ol>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="experience reveal" id="experience">
+    <h2 class="section-heading">EXPERIENCE</h2>
+
+    <div class="timeline">
+      <article class="timeline-entry">
+        <div class="timeline-year">2026 — PRESENT</div>
+        <div class="timeline-body">
+          <h3>SENIOR GRAPHIC DESIGNER</h3>
+          <p class="timeline-company">INSTA LAXMI OPC PVT.</p>
+          <ul class="timeline-desc">
+            <li>Managed and guided a team of 4 designers, overseeing creative execution and quality.</li>
+            <li>Designed social media creatives, advertising campaigns, and marketing materials.</li>
+            <li>Created visual content focused on brand communication, marketing, and audience engagement.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>TEAM LEADERSHIP</span>
+            <span>CREATIVE DIRECTION</span>
+            <span>MARKETING DESIGN</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="timeline-entry">
+        <div class="timeline-year">2025 — 2026</div>
+        <div class="timeline-body">
+          <h3>Sr. VISUAL ARTIST</h3>
+          <p class="timeline-company">CTRL PLUS Z OPC PVT.</p>
+          <ul class="timeline-desc">
+            <li>Created 2D and 3D animated videos for brand and marketing campaigns.</li>
+            <li>Designed logos, brochures, social media creatives, and digital assets.</li>
+            <li>Produced professional video edits and visual effects.</li>
+            <li>Collaborated with marketing teams on creative development.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline-entry">
+        <div class="timeline-year">2023 — 2024</div>
+        <div class="timeline-body">
+          <h3>TRAINER OR LEARNING & DEVELOPMENT (L&D)</h3>
+          <p class="timeline-company">Reliance Animation Studios Pvt. Ltd.</p>
+          <ul class="timeline-desc">
+            <li> Specialist: Lead training sessions, manage employee onboarding, and design professional development frameworks for companies.</li>
+            <li>Created visual content focused on brand communication and audience engagement.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline-entry">
+        <div class="timeline-year">2021 — 2023</div>
+        <div class="timeline-body">
+          <h3>GRAPHIC DESIGNER AND DEVELOPER</h3>
+          <p class="timeline-company">BHANGALE SOFTWARE OPC PVT.</p>
+          <ul class="timeline-desc">
+            <li>Designed social media posts, advertisements, and marketing materials.</li>
+            <li>Created visual content focused on brand communication and audience engagement.</li>
+          </ul>
+        </div>
+      </article>
+
+      
+    </div>
+
+    <div class="stat-highlight">
+      <span class="stat-number">04</span>
+      <div class="stat-text">
+        <p class="stat-label">DESIGNERS<br>LED &amp; MANAGED</p>
+        <p class="stat-desc">Managing creative execution while maintaining consistency, quality and brand direction.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TOOLS ================= -->
+  <section class="tools reveal" id="tools">
+    <h2 class="section-heading">TOOLS OF THE CRAFT</h2>
+    <ul class="tools-list">
+      <li>ADOBE PHOTOSHOP</li>
+      <li>ADOBE ILLUSTRATOR</li>
+      <li>ADOBE AFTER EFFECTS</li>
+      <li>BLENDER-3D</li>
+      <li>SHAPR-3D AND MAYA</li>
+      <li>FIGMA UI/UX</li>
+    </ul>
+    <p class="tools-note">Tools are only instruments. The idea comes first.</p>
+  </section>
+
+  <!-- ================= KEY SKILLS ================= -->
+  <section class="skills reveal" id="skills">
+    <div class="skills-cloud">
+      <span class="skill skill--white">CREATIVE DIRECTION</span>
+      <span class="skill skill--gold">BRAND VISUALS</span>
+      <span class="skill skill--muted">MARKETING DESIGN</span>
+      <span class="skill skill--white">MOTION GRAPHICS</span>
+      <span class="skill skill--gold">2D/3D ANIMATION</span>
+      <span class="skill skill--muted">VIDEO EDITING</span>
+      <span class="skill skill--white">VISUAL STORYTELLING</span>
+      <span class="skill skill--gold">SOCIAL MEDIA DESIGN</span>
+    </div>
+  </section>
+
+  <!-- ================= TECHNICAL EDGE ================= -->
+  <section class="technical reveal" id="technical">
+    <div class="technical-inner">
+      <p class="eyebrow">THE EXTRA LAYER</p>
+      <h2 class="technical-heading">DESIGNER<br>WITH A<br>TECHNICAL MIND.</h2>
+      <p class="technical-desc">Alongside visual design, I have hands-on exposure to software development, cybersecurity, digital forensics and web technologies.</p>
+      <ul class="technical-grid">
+        <li>SOFTWARE DEVELOPMENT</li>
+        <li>CYBERSECURITY</li>
+        <li>DIGITAL FORENSICS</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>AI SOFTWARE</li>
+        <li>SOFTWARE-RELATED SYSTEMS</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="about-section reveal" id="about-beyond">
+    <h2 class="section-heading">BEYOND THE DESIGN</h2>
+    <p class="about-copy">I approach design as a combination of visual thinking, communication and technology. From a social media campaign to a 3D animation or brand identity, every visual should have a reason to exist.</p>
+    <div class="languages">
+      <span class="eyebrow">LANGUAGES</span>
+      <ul>
+        <li>ENGLISH</li>
+        <li>HINDI</li>
+        <li>MARATHI</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact reveal" id="contact">
+    <h2 class="contact-heading">LET'S CREATE<br>SOMETHING<br>MEMORABLE.</h2>
+
+    <div class="contact-details">
+      <div class="contact-identity">
+        <p class="contact-name">RAHUL UMAP</p>
+        <p class="contact-role">Visual Artist &amp; Senior Graphic Designer</p>
+      </div>
+      <div class="contact-info">
+        <span class="eyebrow">CONTACT</span>
+        <a href="tel:+918454808018" class="contact-big">8454808018</a>
+        <a href="mailto:Rahulhub75@gmail.com" class="contact-big">rahulhub75@gmail.com</a>
+        <a href="mailto:sanjayumap808@gmail.com" class="contact-big">sanjayumap808@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="contact-actions">
+      <a href="tel:+918454808018" class="cta-button">CALL ME →</a>
+      <a href="mailto:sanjayumap808@gmail.com" class="cta-button cta-button--alt">EMAIL ME →</a>
+    </div>
+
+    <ul class="contact-links">
+      <li><a href="#">LINKEDIN</a></li>
+      <li><a href="https://www.instagram.com/rahulumap01?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==">INSTAGRAM</a></li>      
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <p>RAHUL UMAP © 2026</p>
+    <p>VISUAL ARTIST &amp; SENIOR GRAPHIC DESIGNER</p>
+  </div>
+  <div class="footer-mid">
+    <span>SOCIAL MEDIA DESIGN</span>
+    <span>BRANDING</span>
+    <span>MOTION</span>
+    <span>3D</span>
+    <span>VIDEO</span>
+  </div>
+  <a href="#top" class="back-to-top">BACK TO TOP ↑</a>
+</footer>
+
+</body>
+</html>
